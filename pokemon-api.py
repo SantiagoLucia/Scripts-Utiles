@@ -26,6 +26,7 @@ def show_image(img):
     im = Image.open(img)
     im.show()
 
+                
 def get_pokemon(name):
     request = f'{API}/pokemon/{name}'
     response = requests.get(request)
